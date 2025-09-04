@@ -1,0 +1,12 @@
+/* styles.print.css — lightweight print/export styles */
+@page { margin: 20mm; }
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color:#111; }
+.print-note { max-width: 780px; margin: 0 auto; }
+.print-note .meta { color:#70757a; font-size: 12px; margin-bottom: 8px; }
+.print-note h1, .print-note h2, .print-note h3 { margin: .6em 0 .35em; }
+.print-note p { margin: .5em 0; line-height: 1.55; }
+.print-note code { background: #f0f2f5; padding: .15em .35em; border-radius: 6px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.print-note pre code { display:block; padding: 12px; border:1px solid #e5e7eb; background:#f6f8fa; border-radius: 8px; overflow:auto; }
+.print-note ul, .print-note ol { padding-left: 1.2em; }
+a { color: #1a73e8; text-decoration: none; }
+a:hover { text-decoration: underline; }
