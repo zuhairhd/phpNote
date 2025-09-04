@@ -25,10 +25,11 @@ Supports **Markdown formatting**, **CRUD operations**, **dark/light theme**, and
 
 ## 📂 Project Structure
 
+```text
 phpNote/
-├─ index.php # Main app (CRUD + UI)
-├─ db.php # SQLite connection + schema
-├─ styles.css # Main styles (UI, theme)
-├─ styles.print.css # Print/export styles
-├─ export.php # Exports individual notes
-└─ data/ # SQLite database file (auto-created)
+├─ index.php          # Main app (CRUD + UI)
+├─ db.php             # SQLite connection + schema
+├─ styles.css         # Main styles (UI, theme)
+├─ styles.print.css   # Print/export styles
+├─ export.php         # Exports individual notes
+└─ data/              # SQLite database file (auto-created)
